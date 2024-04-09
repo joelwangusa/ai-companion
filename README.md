@@ -29,6 +29,9 @@ yarn add @clerk/nextjs
 
 # add authMiddleware.ts into src/
 # Create a middleware.ts file under src/
+
+# Submit the code to github
+git remote add origin <github_repo_url>
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
