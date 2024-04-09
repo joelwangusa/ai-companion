@@ -14,6 +14,23 @@ pnpm dev
 bun dev
 ```
 
+```
+# Install next.js, typescript, eslint and tailwind
+npx create-next-app@latest ai-companion --typescript --eslint --tailwind
+
+# install UI libraries: ShadCN
+npx shadcn-ui@latest init
+
+# Setup authentication with Clerk
+# Copy the keys into .env
+
+# Install clerk nextjs libraries
+yarn add @clerk/nextjs
+
+# add authMiddleware.ts into src/
+# Create a middleware.ts file under src/
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
