@@ -24,6 +24,9 @@ git remote add origin <github_repo_url>
 
  # install nextjs theme
  yarn add next-themes
+
+ # add search query
+ yarn add query-string
 ```
 
 ## Deploy on Vercel

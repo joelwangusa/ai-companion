@@ -4,7 +4,7 @@ import { Menu, Sparkles } from "lucide-react"
 import Link from "next/link";
 import { Poppins } from "next/font/google";
 import { UserButton } from "@clerk/nextjs";
-import MobileSidebar from "@/components/mobilesidebar";
+import MobileSidebar from "@/components/mobile-sidebar";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
