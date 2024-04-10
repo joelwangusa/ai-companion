@@ -44,6 +44,12 @@ git remote add origin <github_repo_url>
 
  # Insert seed data into database
  node scripts/seed.ts
+
+ # Add Cloudinary (replace to S3 in the future)
+ yarn add next-cloudinary
+
+ # Install api call axios
+ yarn add axios
 ```
 
 ## Deploy on Vercel
