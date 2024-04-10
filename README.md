@@ -27,6 +27,23 @@ git remote add origin <github_repo_url>
 
  # add search query
  yarn add query-string
+
+ # Install prisma
+ yarn add -D prisma
+ yarn prisma init
+
+ # Every schema changes
+ npx prisma generate
+ npx prisma db push
+
+ # Install prisma client
+ yarn add @prisma/client
+
+ # Run Prisma Studio
+ npx prisma studio
+
+ # Insert seed data into database
+ node scripts/seed.ts
 ```
 
 ## Deploy on Vercel
