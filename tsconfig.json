@@ -7,6 +7,7 @@
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
+    "sourceMap": true, // remove it later
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,

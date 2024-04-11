@@ -20,6 +20,7 @@ const ChatIdPage = async ({
 
     const companion = await prismadb.companion.findUnique({
         where: {
+          userId,
           id: params.charId
         },
         include: {

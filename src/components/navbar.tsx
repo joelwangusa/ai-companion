@@ -29,7 +29,7 @@ export const Navbar = () => {
                )}>
                Personal.ai
               </h1>
-          </Link>     
+          </Link>
         </div>    
         <div className="flex items-center gap-x-3">
           <Button variant="premium" size="sm">
@@ -37,7 +37,7 @@ export const Navbar = () => {
             <Sparkles className="w-4 h-4 fill-white text-white ml-2" />
           </Button>
           <ModeToggle />
-          <UserButton />
+          <UserButton afterSignOutUrl="/"/>
         </div>         
       </div>
     )
