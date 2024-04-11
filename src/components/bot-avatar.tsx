@@ -1,4 +1,4 @@
-import { Avatar, AvatarImage } from "@radix-ui/react-avatar";
+import { Avatar, AvatarImage } from "@/components/ui/avatar"
 
 interface BotAvatarProps {
   src: string;
@@ -9,7 +9,7 @@ export const BotAvatar = ({
 }: BotAvatarProps) => {
   return ( 
     <Avatar className="h-12 w-12">
-      <AvatarImage src={src} alt="Bot Avatar" />
+      <AvatarImage src={src} />
     </Avatar>
   );
 }
